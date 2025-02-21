@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ansible
+*.retry
+
+# K3s config
+k3s/config/*.kubeconfig
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
